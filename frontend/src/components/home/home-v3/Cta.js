@@ -30,7 +30,7 @@ const Cta = () => {
                 height={415}
                 priority
                 className="w-100 h-100 cover"
-                src="/images/about/cta-member-1.png"
+                src="/images/about/cta-member-a1.png"
                 alt="cta memeber"
               />
             </div>

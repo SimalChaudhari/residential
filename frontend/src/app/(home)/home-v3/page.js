@@ -21,7 +21,7 @@ export const metadata = {
 
 const Home_V3 = () => {
   return (
-    <>
+    <div>
       {/* Main Header Nav */}
       <Header />
       {/* End Main Header Nav */}
@@ -46,7 +46,7 @@ const Home_V3 = () => {
                     width={641}
                     height={650}
                     className="img-1"
-                    src="/images/about/about-3.png"
+                    src="/images/about/about-a3.png"
                     alt="about"
                   />
                   <Image
@@ -257,7 +257,7 @@ const Home_V3 = () => {
                     width={591}
                     height={778}
                     className="w-100 h-100 cover"
-                    src="/images/about/about-4.png"
+                    src="/images/about/about-a4.png"
                     alt="about"
                   />
                 </div>
@@ -305,7 +305,7 @@ const Home_V3 = () => {
         <Footer />
       </section>
       {/* End Our Footer */}
-    </>
+    </div>
   );
 };
 

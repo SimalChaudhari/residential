@@ -12,7 +12,7 @@ const WhyChoose = () => {
             height={685}
             priority
             className="w-100 h-100 cover"
-            src="/images/about/why-chose-1.png"
+            src="/images/about/why-chose-w1.png"
             alt="why chosse"
           />
           <Link href="/single-v1/5">

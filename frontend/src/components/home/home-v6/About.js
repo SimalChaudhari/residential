@@ -8,7 +8,7 @@ const About = () => {
     "List your own property",
   ];
   return (
-    <>
+    <div>
       <div className="row">
         <div className="col-lg-6 col-xl-4">
           <div
@@ -80,7 +80,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

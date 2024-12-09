@@ -42,7 +42,7 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
-    <>
+    <div>
       <div className="tab-content" id="pills-tabContent">
         {testimonials.map((testimonial) => (
           <div
@@ -97,7 +97,7 @@ const Testimonial = () => {
           ))}
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 

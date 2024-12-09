@@ -3,7 +3,7 @@ import HeroContent from "./HeroContent";
 
 const Hero = () => {
   return (
-    <>
+    <div>
       <div className="inner-banner-style3">
         <h2 className="hero-title mb30 animate-up-1">
           Find The Perfect Place to Live With your Family
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
       {/* <!-- Advance Feature Modal End --> */}
-    </>
+    </div>
   );
 };
 

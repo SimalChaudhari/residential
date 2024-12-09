@@ -23,7 +23,7 @@ const BannerSlider = () => {
   ];
 
   return (
-    <>
+    <div>
       <div className="rounded-arrow arrow-with-border d-flex flex-column d-position end-pos">
         <button className="hero9-prev__active swiper_button _prev">
           <i className="far fa-chevron-left" />
@@ -95,7 +95,7 @@ const BannerSlider = () => {
           ))}
         </Swiper>
       </div>
-    </>
+    </div>
   );
 };
 

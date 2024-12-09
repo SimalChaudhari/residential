@@ -10,10 +10,10 @@ const Hero = () => {
     {
       image: "/images/home/home-9.jpg",
       title: (
-        <>
+        <div>
           Get your dream <br className="d-none d-lg-block" />
           home
-        </>
+        </div>
       ),
       description:
         "From as low as $10 per day with limited time offer discounts.",
@@ -22,16 +22,16 @@ const Hero = () => {
       bed: "1",
       bath: "2",
       sqft: 1200,
-      price: "$14,000",
+      price: "14,000",
     },
 
     {
       image: "/images/home/home-5-2.jpg",
       title: (
-        <>
+        <div>
           Buy your future <br className="d-none d-lg-block" />
           home
-        </>
+        </div>
       ),
       description:
         "From as low as $10 per day with limited time offer discounts.",
@@ -40,12 +40,12 @@ const Hero = () => {
       bed: "1",
       bath: "2",
       sqft: 1200,
-      price: "$14,000",
+      price: "14,000",
     },
   ];
 
   return (
-    <>
+    <div>
       <div className="hero-large-home9">
         <div className="rounded-arrow arrow-with-border d-flex flex-column d-position">
           <button className="hero9-prev__active swiper_button _prev">
@@ -162,7 +162,7 @@ const Hero = () => {
           ))}
         </Swiper>
       </div>
-    </>
+    </div>
   );
 };
 

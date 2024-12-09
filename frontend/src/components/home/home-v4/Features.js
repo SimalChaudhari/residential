@@ -22,7 +22,7 @@ const Features = () => {
   ];
 
   return (
-    <>
+    <div>
       {features.map((feature, index) => (
         <div className="list-one d-flex align-items-start mb30" key={index}>
           <span className={`list-icon flex-shrink-0 ${feature.icon}`} />
@@ -32,7 +32,7 @@ const Features = () => {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

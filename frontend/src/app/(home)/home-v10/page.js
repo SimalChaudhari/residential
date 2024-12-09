@@ -21,7 +21,7 @@ export const metadata = {
 
 const Home_V10 = () => {
   return (
-    <>
+    <div>
       {/* Main Header Nav */}
       <Header />
       {/* End Main Header Nav */}
@@ -362,7 +362,7 @@ const Home_V10 = () => {
         <Footer />
       </section>
       {/* End Our Footer */}
-    </>
+    </div>
   );
 };
 
