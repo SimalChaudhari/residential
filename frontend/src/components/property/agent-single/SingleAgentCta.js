@@ -24,7 +24,7 @@ const SingleAgentCta = ({id}) => {
     ],
   };
   return (
-    <>
+    <div>
       <div className="agent-single d-sm-flex align-items-center">
         <div className="single-img mb30-sm">
           <Image
@@ -64,7 +64,7 @@ const SingleAgentCta = ({id}) => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -12,7 +12,7 @@ export const metadata = {
 
 const BannerSearchV1 = () => {
   return (
-    <>
+    <div>
       {/* Main Header Nav */}
       <DefaultHeader />
       {/* End Main Header Nav */}
@@ -30,7 +30,7 @@ const BannerSearchV1 = () => {
         <Footer />
       </section>
       {/* End Our Footer */}
-    </>
+    </div>
   );
 };
 

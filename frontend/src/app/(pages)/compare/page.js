@@ -10,7 +10,7 @@ export const metadata = {
 
 const Compare = () => {
   return (
-    <>
+    <div>
       {/* Main Header Nav */}
       <DefaultHeader />
       {/* End Main Header Nav */}
@@ -64,7 +64,7 @@ const Compare = () => {
         <Footer />
       </section>
       {/* End Our Footer */}
-    </>
+    </div>
   );
 };
 

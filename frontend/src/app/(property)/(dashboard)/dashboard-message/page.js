@@ -15,7 +15,7 @@ export const metadata = {
 
 const DashboardMessage = () => {
   return (
-    <>
+    <div>
       {/* Main Header Nav */}
       <DashboardHeader />
       {/* End Main Header Nav */}
@@ -124,7 +124,7 @@ const DashboardMessage = () => {
         </div>
       </div>
       {/* dashboard_content_wrapper */}
-    </>
+    </div>
   );
 };
 

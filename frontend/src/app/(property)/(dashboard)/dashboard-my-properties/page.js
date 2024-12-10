@@ -13,7 +13,7 @@ export const metadata = {
 
 const DashboardMyProperties = () => {
   return (
-    <>
+    <div>
       {/* Main Header Nav */}
       <DashboardHeader />
       {/* End Main Header Nav */}
@@ -74,7 +74,7 @@ const DashboardMyProperties = () => {
         </div>
       </div>
       {/* dashboard_content_wrapper */}
-    </>
+    </div>
   );
 };
 

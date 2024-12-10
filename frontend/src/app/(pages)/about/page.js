@@ -16,7 +16,7 @@ export const metadata = {
 
 const About = () => {
   return (
-    <>
+    <div>
       {/* Main Header Nav */}
       <DefaultHeader />
       {/* End Main Header Nav */}
@@ -203,7 +203,7 @@ const About = () => {
         <Footer />
       </section>
       {/* End Our Footer */}
-    </>
+    </div>
   );
 };
 

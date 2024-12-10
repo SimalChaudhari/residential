@@ -15,7 +15,7 @@ export const metadata = {
 
 const GridFull2Col = () => {
   return (
-    <>
+    <div>
       {/* Main Header Nav */}
       <DefaultHeader />
       {/* End Main Header Nav */}
@@ -61,7 +61,7 @@ const GridFull2Col = () => {
         <Footer />
       </section>
       {/* End Our Footer */}
-    </>
+    </div>
   );
 };
 

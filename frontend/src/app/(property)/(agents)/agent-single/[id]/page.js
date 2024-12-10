@@ -19,7 +19,7 @@ export const metadata = {
 
 const AgentSingle = ({params}) => {
   return (
-    <>
+    <div>
       {/* Main Header Nav */}
       <DefaultHeader />
       {/* End Main Header Nav */}
@@ -166,7 +166,7 @@ const AgentSingle = ({params}) => {
         <Footer />
       </section>
       {/* End Our Footer */}
-    </>
+    </div>
   );
 };
 

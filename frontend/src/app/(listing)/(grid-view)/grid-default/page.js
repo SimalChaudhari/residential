@@ -11,7 +11,7 @@ export const metadata = {
 
 const GridDefault = () => {
   return (
-    <>
+    <div>
       {/* Main Header Nav */}
       <DefaultHeader />
       {/* End Main Header Nav */}
@@ -56,7 +56,7 @@ const GridDefault = () => {
         <Footer />
       </section>
       {/* End Our Footer */}
-    </>
+    </div>
   );
 };
 

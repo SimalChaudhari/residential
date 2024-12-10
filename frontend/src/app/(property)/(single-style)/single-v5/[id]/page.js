@@ -29,7 +29,7 @@ export const metadata = {
 
 const SingleV5 = ({params}) => {
   return (
-    <>
+    <div>
       {/* Main Header Nav */}
       <DefaultHeader />
       {/* End Main Header Nav */}
@@ -269,7 +269,7 @@ const SingleV5 = ({params}) => {
         <Footer />
       </section>
       {/* End Our Footer */}
-    </>
+    </div>
   );
 };
 

@@ -6,7 +6,7 @@ const Blog = () => {
  
 
   return (
-    <>
+    <div>
       {blogDataTwo.map((item, index) => (
         <div
           className="blog-style1 list-style bgc-white d-block d-md-flex align-items-xl-center"
@@ -37,7 +37,7 @@ const Blog = () => {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 
