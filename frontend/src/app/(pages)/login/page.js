@@ -9,7 +9,7 @@ export const metadata = {
 
 const Login = () => {
   return (
-    <>
+    <div>
       {/* Our Compare Area */}
       <section className="our-compare pt60 pb60">
         <Image
@@ -46,7 +46,7 @@ const Login = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

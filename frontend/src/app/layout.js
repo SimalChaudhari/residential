@@ -7,6 +7,7 @@ import "../../public/scss/main.scss";
 import "rc-slider/assets/index.css";
 import { DM_Sans, Poppins } from "next/font/google";
 import { useEffect } from "react";
+import StoreProvider from "./StoreProvider";
 
 if (typeof window !== "undefined") {
   import("bootstrap");
@@ -40,9 +41,11 @@ export default function RootLayout({ children }) {
         className={`body  ${poppins.variable} ${dmSans.variable}`}
         cz-shortcut-listen="false"
       >
-        <div className="wrapper ovh">{children}</div>
+        <StoreProvider>
+          <div className="wrapper ovh">{children}</div>
 
-        <ScrollToTop />
+          <ScrollToTop />
+        </StoreProvider>
       </body>
     </html>
   );
