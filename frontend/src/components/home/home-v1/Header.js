@@ -28,9 +28,8 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header-nav nav-homepage-style main-menu  ${
-          navbar ? "sticky slideInDown animated" : ""
-        }`}
+        className={`header-nav nav-homepage-style main-menu  ${navbar ? "sticky slideInDown animated" : ""
+          }`}
       >
         <nav className="posr">
           <div className="container posr menu_bdrt1">
@@ -65,6 +64,7 @@ const Header = () => {
 
               <div className="col-auto">
                 <div className="d-flex align-items-center">
+                  {/*
                   <a
                     href="#"
                     className="login-info d-flex align-items-center"
@@ -75,6 +75,15 @@ const Header = () => {
                     <i className="far fa-user-circle fz16 me-2" />{" "}
                     <span className="d-none d-xl-block">Login / Register</span>
                   </a>
+                */}
+
+                  <Link
+                    className="login-info"
+                    href="/login"
+                  >
+                    Login / Register
+                  </Link>
+
                   <Link
                     className="ud-btn add-property menu-btn bdrs60 mx-2 mx-xl-4"
                     href="/dashboard-add-property"
